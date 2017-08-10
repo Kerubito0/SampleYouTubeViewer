@@ -14,6 +14,9 @@
 		E7EAEEF51F3C1982009218AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EAEEF31F3C1982009218AF /* LaunchScreen.storyboard */; };
 		E7EAEF001F3C1982009218AF /* YouTubeViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EAEEFF1F3C1982009218AF /* YouTubeViewerTests.swift */; };
 		E7EAEF0B1F3C1982009218AF /* YouTubeViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EAEF0A1F3C1982009218AF /* YouTubeViewerUITests.swift */; };
+		E7EAEF191F3C1A62009218AF /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EAEF181F3C1A62009218AF /* Define.swift */; };
+		E7EAEF1A1F3C1A62009218AF /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EAEF181F3C1A62009218AF /* Define.swift */; };
+		E7EAEF1B1F3C1A62009218AF /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EAEF181F3C1A62009218AF /* Define.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		E7EAEF061F3C1982009218AF /* YouTubeViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTubeViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EAEF0A1F3C1982009218AF /* YouTubeViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeViewerUITests.swift; sourceTree = "<group>"; };
 		E7EAEF0C1F3C1982009218AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EAEF181F3C1A62009218AF /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				E7EAEEEA1F3C1982009218AF /* AppDelegate.swift */,
 				E7EAEEEC1F3C1982009218AF /* ViewController.swift */,
+				E7EAEF181F3C1A62009218AF /* Define.swift */,
 				E7EAEEEE1F3C1982009218AF /* Main.storyboard */,
 				E7EAEEF11F3C1982009218AF /* Assets.xcassets */,
 				E7EAEEF31F3C1982009218AF /* LaunchScreen.storyboard */,
@@ -193,8 +198,7 @@
 				TargetAttributes = {
 					E7EAEEE61F3C1982009218AF = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = TWR6BAE2UK;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E7EAEEFA1F3C1982009218AF = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -263,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7EAEEED1F3C1982009218AF /* ViewController.swift in Sources */,
+				E7EAEF191F3C1A62009218AF /* Define.swift in Sources */,
 				E7EAEEEB1F3C1982009218AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EAEF1A1F3C1A62009218AF /* Define.swift in Sources */,
 				E7EAEF001F3C1982009218AF /* YouTubeViewerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EAEF1B1F3C1A62009218AF /* Define.swift in Sources */,
 				E7EAEF0B1F3C1982009218AF /* YouTubeViewerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,8 +422,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TWR6BAE2UK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = YouTubeViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tms.YouTubeViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,8 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TWR6BAE2UK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = YouTubeViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tms.YouTubeViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";

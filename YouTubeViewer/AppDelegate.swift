@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  YouTubeViewer
 //
-//  Created by 谷川ばい on 2017/08/10.
+//  Created by TMS on 2017/08/10.
 //  Copyright © 2017年 TMS. All rights reserved.
 //
 
